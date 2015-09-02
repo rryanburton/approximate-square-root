@@ -22,4 +22,4 @@ new_guess9 = ((desired_num / new_guess8) + new_guess8) / 2
 
 new_guess10 = ((desired_num / new_guess9) + new_guess9) / 2
 
-print("the square root of {} is {}").format(desired_num, round(new_guess10, 2))
+print("the square root of {} is {} +/-.01").format(desired_num, round(new_guess10, 2))
